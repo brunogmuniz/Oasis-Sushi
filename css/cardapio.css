@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "MUSASHI" ;
+    src: url(../fonts/MUSASHI.eot) format('opentype'), url('/fonts/MUSASHI.ttf') format('truetype') ;
+}
+@font-face {
+    font-family: "MISAKE" ;
+    src: url(../fonts/HIROMISAKE.ttf) format('opentype');
+}
+  
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+   
+}
+.nav-link{
+    font-family: MUSASHI;
+    font-weight: normal;
+    font-size: 2.5vh;
+    letter-spacing: 2px;
+    color: rgb(255, 252, 252);
+    margin-left:50px;
+}
+.nav-link:hover{
+    color: rgb(232, 215, 141);
+    transition: 1.5s;
+}
+.navbar-nav{
+    align-items: center;
+    align-content: center;
+}
+svg#carrinho{
+    color: rgb(252, 252, 252);
+}
+
+
+body{
+    
+    background-image: url(../imagens/bg.png);
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+}
+div#divisor{
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: black;
+}
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: wheat;
+    font-size: 3vh;
+    padding: 1px;
+}
+
+.cardapio{
+    width: 100%;
+    height: 92vh;
+    background-color: black;
+    border-radius: 20px;
+    opacity: 85%;
+}
+span{
+    color: wheat;
+    margin:  0;
+    padding: 0;
+    float: right;
+    font-size: 100%;
+}
+.item{
+    border-bottom: 1px solid white ;
+    margin: auto;
+    width: 90%;
+    height: 23%;
+
+}
+
+.nome{
+    color: goldenrod;
+    padding: 10px 10px 0px 10px;
+    margin: 0;
+}
+.ingredientes{
+    color: white;
+    padding: 1px 10px 10px 10px; 
+}
+
+.container{
+    width: 100%;
+    
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 15vh;
+}
